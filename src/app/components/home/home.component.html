@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <h2>Hello {{user}}! 👋 Welcome to Grocery Tracker 😀 🥳 🙏</h2>
+    </div>
+    <div>
+        <p>{{overview}}</p>
+    </div>
+    <div>
+        <button [ngStyle]="{'background-color': groceriesColor}" class="home-btn" routerLink="/groceries"> {{groceriesText}}</button>
+        <button [ngStyle]="{'background-color': transColor}" class="home-btn" routerLink="/recentTransaction">
+            {{recentTransText}}</button>
+        <button [ngStyle]="{'background-color': monthlyExpenseColor}" class="home-btn" routerLink="/monthlyExpense">
+            {{monthlyExpenseText}}</button>
+    </div>
+</div>

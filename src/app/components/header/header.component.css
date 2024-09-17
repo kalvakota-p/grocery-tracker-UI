@@ -1,0 +1,22 @@
+.header {
+    text-align: left;
+    color:  rgb(206, 55, 70);
+    /* display: block; */
+    /* width: 100%; */
+    /* min-height: 100px; */
+    /* height: 100px; */
+}
+.home-button {
+    float: right;
+    /* display: inline-block; */
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}

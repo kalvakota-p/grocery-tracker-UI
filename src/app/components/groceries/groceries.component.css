@@ -1,0 +1,22 @@
+.add-btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+  }
+
+  .grocery-container {
+    max-width: 800px;
+    margin: 30px auto;
+    height: 300px;
+    border: 2px solid rgb(186, 65, 9);
+    padding: 30px;
+    border-radius: 5px;
+    overflow-y: scroll;
+  }

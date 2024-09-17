@@ -1,0 +1,30 @@
+<div id="form">
+    <form class="add-form" (ngSubmit)="onSubmit()">
+        <div class="form-control">
+            <label class="label-align" for="item">Item:</label>
+            <input type="text" name="item" id="item" placeholder="enter item name"
+            [(ngModel)]="item"/>
+        </div>
+        <div class="form-control">
+            <label class="label-align" for="quantity">Quantity:</label>
+            <input type="text" name="quantity" id="quantity" placeholder="enter quantity"
+            [(ngModel)]="quantity"/>
+        </div>
+        <div class="form-control">
+            <label class="label-align" for="price">Price:</label>
+            <input type="text" name="price" id="price" placeholder="enter price"
+            [(ngModel)]="price"/>
+        </div>
+        <div class="form-control">
+            <label class="label-align" for="date">Purchase Date:</label>
+            <input type="text" name="date" id="date" placeholder="enter date"
+            [(ngModel)]="date"/>
+        </div>
+        <div class="form-control">
+            <label class="label-align" for="store">Store:</label>
+            <input type="text" name="store" id="store" placeholder="enter store name"
+            [(ngModel)]="store"/>
+        </div>
+        <input type="submit" value="Save Expense" class="submit-btn" />
+    </form>
+</div>

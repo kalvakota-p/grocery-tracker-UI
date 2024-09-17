@@ -1,0 +1,5 @@
+<header>
+    <h1 class="header">{{title}}
+    <button *ngIf="hasRoute('/')" class="home-button" [ngStyle]="{'background-color': homeBtnColor}"
+        routerLink="/">{{homePage}}</button></h1>
+</header>

@@ -1,0 +1,44 @@
+{
+  "groceries": [
+    {
+      "id": "1",
+      "item": "Avocado",
+      "quantity": "0.5 kg",
+      "price": "4",
+      "date": "Sep 6th Sunday",
+      "store": "Safeway"
+    },
+    {
+      "id": "2",
+      "item": "Beans",
+      "quantity": "1 kg",
+      "price": "3",
+      "date": "Sep 6th Sunday",
+      "store": "Lotte Plaza"
+    },
+    {
+      "id": "dcdd",
+      "item": "Cabbage",
+      "quantity": "1 kg",
+      "price": "$3",
+      "date": "Sep 15th, Sunday",
+      "store": "Lotte"
+    },
+    {
+      "id": "2b07",
+      "item": "Carrot",
+      "quantity": "2kgs",
+      "price": "$3",
+      "date": "Sep 15th, Sunday",
+      "store": "Costco"
+    },
+    {
+      "id": "3659",
+      "item": "Cauliflower",
+      "quantity": "1 kg",
+      "price": "$2",
+      "date": "Sep 15th, Sunday",
+      "store": "Triveni"
+    }
+  ]
+}

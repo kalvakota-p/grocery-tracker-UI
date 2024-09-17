@@ -1,0 +1,18 @@
+.grocery {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .icon {
+    float: right;
+    padding: 10px 20px;
+  }
+  
+  .grocery span {
+    display: contents;
+    align-items: center;
+    justify-content: space-between;
+  }

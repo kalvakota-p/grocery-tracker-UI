@@ -1,0 +1,12 @@
+<h3>Check out the list of all groceries purchased till date!</h3>
+<div class="grocery-container">
+    <app-grocery-item *ngFor="let grocery of groceries" [grocery]=grocery 
+    (onDelete)="deleteGroceryItem(grocery)"
+    (onUpdate)="updateGroceryItem(grocery)">
+    </app-grocery-item>
+</div>
+
+<div>
+    <button [ngStyle]="{'background-color': groceryColor}" class="add-btn" (click)="toggleAddGrocery()"> {{addGroceryText}}</button>
+    <app-add-grocery (onAddGrocery)="addGrocery($event)"></app-add-grocery>
+</div>

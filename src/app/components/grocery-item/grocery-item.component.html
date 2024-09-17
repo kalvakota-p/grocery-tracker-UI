@@ -1,0 +1,5 @@
+<div class="grocery">
+    <span>{{grocery.item}} | {{grocery.quantity}} | {{grocery.price}} | {{grocery.date}} | {{grocery.store}}</span>
+    <fa-icon class="icon" [ngStyle]="{'color':'red'}" [icon]="faTimes" (click)="deleteItem(grocery)"></fa-icon>
+    <!-- <fa-icon class="icon" [ngStyle]="{'color':'update'}" [icon]="faPencil" (click)="updateItem(grocery);toggleAddGrocery()"></fa-icon> -->
+</div>
